@@ -1,0 +1,3 @@
+/home/dci-student/CLionProjects/Matrix_Screen/build/CMakeFiles/MatrixScreen.dir
+/home/dci-student/CLionProjects/Matrix_Screen/build/CMakeFiles/edit_cache.dir
+/home/dci-student/CLionProjects/Matrix_Screen/build/CMakeFiles/rebuild_cache.dir

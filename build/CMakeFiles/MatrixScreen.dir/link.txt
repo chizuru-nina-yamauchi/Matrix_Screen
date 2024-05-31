@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/MatrixScreen.dir/src/main.cpp.o -o MatrixScreen  /usr/lib/x86_64-linux-gnu/libSDL2.so /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so 
