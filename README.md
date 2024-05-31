@@ -65,10 +65,15 @@ cmake --build build
 ```
 
 ### How it looks (Example)
+
 ![pic1](./pics/pic1.png)
 
+(With a different font file)
 
 ![pic2](./pics/pic2.png)
+
+(We can change the screen size and how fast the characters fall by using different settings for height, width, and speed)
+![pic3](./pics/pic3.png)
 
 #### Environment I used
 
