@@ -1,0 +1,10 @@
+# ninja log v6
+1	87	1718980007651987717	CMakeFiles/MatrixScreenTest.dir/src/MatrixColumn.cpp.o	c4a0ac3266d02a39
+1	753	1718980007651987717	CMakeFiles/MatrixScreenTest.dir/test/MatrixScreenTest.cpp.o	81ca8b839b25496d
+1	102	1718980902660668022	CMakeFiles/MatrixScreenTest.dir/src/MatrixColumn.cpp.o	3afe0ac1e4ea3de9
+1	807	1718980902660668022	googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	93779f74202102d7
+1	898	1718980902660668022	CMakeFiles/MatrixScreenTest.dir/test/MatrixScreenTest.cpp.o	4a1d96f647fecdd1
+1	4128	1718980902660668022	googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	2b6d84874b0d8bf1
+4129	4180	1718980906788677983	lib/libgtest.a	ecbc21fc02c353d4
+4180	4186	1718980906840678109	lib/libgtest_main.a	941e110e6d4a1b79
+4186	4355	1718980906848678128	MatrixScreenTest	a37c21cca6f53f53

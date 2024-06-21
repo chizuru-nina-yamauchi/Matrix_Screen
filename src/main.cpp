@@ -2,34 +2,11 @@
 #include <SDL2/SDL_ttf.h>   // Include the SDL_ttf library for TrueType font rendering
 #include <cstdlib>          // Include the C standard library for general utilities
 #include <ctime>            // Include the C time library for time functions
-#include <vector>           // Include the C++ vector library for dynamic arrays
+#include "MatrixColumn.h"   // Include the MatrixColumn header file for column struct and functions
 
 // Constants for the screen width, height, and font size
 const int SCREEN_WIDTH = 1950;
-const int SCREEN_HEIGHT = 1050;
 const int FONT_SIZE = 16;
-
-// Struct to represent a column in the matrix
-struct MatrixColumn {
-    int x;      // X coordinate of the column
-    int y;      // Y coordinate of the column
-    int speed;  // Speed of the column's movement
-};
-
-// Function to initialize the matrix columns
-void initMatrixColumns(std::vector<MatrixColumn>& columns, int screenWidth, int fontSize) {
-    // Calculate the number of columns based on screen width and font size
-    int numColumns = screenWidth / fontSize;
-    columns.resize(numColumns); // Resize the columns vector to hold numColumns
-
-    // Initialize each column
-    for (int i = 0; i < numColumns; ++i) {
-        // Set x position of the column to evenly distribute across the screen
-        // Set y position randomly within the screen height
-        // Set speed randomly to create the effect of falling
-        columns[i] = {i * fontSize, rand() % SCREEN_HEIGHT, rand() % 20 + 5};
-    }
-}
 
 // Function to render the matrix on the screen
 void renderMatrix(SDL_Renderer* renderer, TTF_Font* font, std::vector<MatrixColumn>& columns) {
